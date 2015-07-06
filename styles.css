@@ -12,6 +12,10 @@ h1 {
   color: #44619D;
 }
 
+#nav {
+  margin-bottom: 4em;
+}
+
 a {
   display: inline-block;
   width: 5em;
@@ -24,4 +28,13 @@ a {
   font-weight: bold;
   line-height: 2em;
   color: #fafafa;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.post {
+  margin-bottom: 4em;
 }
