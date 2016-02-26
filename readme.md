@@ -79,9 +79,15 @@ Things to consider:
 ---
 
 1. Get the HTML content of the second `<p>` element on the page
+  - `$("p").eq(1).html()`
 - Set the HTML content of the second `<p>` to something else weird
+  - `$("p").eq(1).html("Phantom Menace was a good movie.")`
 - Get the background color of the body
+  - `$("body").css("background-color")`
 - Set the background color of the body to "burlywood"
+  - `$("body").css("background-color", "burlywood")`
 - Get the `alt` value of the fourth `<img>` on the page
+  - `$("img").eq(3).prop("alt")`
 - Set the `alt` value of the fourth `<img>` on the page to "Why is my boat upside down?"
+  - `$("img").eq(3).prop("alt", "Why is my boat upside down?")`
 
