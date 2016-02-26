@@ -40,6 +40,8 @@ Then, write down how you would select the following DOM objects on "My Blawg". U
 - The first element with class `post`
 - The second element with class `post`
 - The HTML content of the first `<a>` element on the page
+
+Bonus:
 - Using a CSS pseudo-selector, the third element with class `post`
 - Using one of its HTML attributes, the fourth `<img>` on the page
 
