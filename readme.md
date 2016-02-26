@@ -15,7 +15,7 @@ Use only the following methods or attributes:
 
 1. The first `<a>` element on the page
 - All `<a>` elements on the page
-- Using an ID, the `<h1>` at the top of the page
+- Using its ID, the `<h1>` at the top of the page
 - All elements with class `post`
 - The first element with class `post`
 - The second element with class `post`
@@ -23,7 +23,9 @@ Use only the following methods or attributes:
 
 # Part Two: jQuery
 
-Use only the following methods or attributes: 
+First, use a `<script>` tag in `index.html` to include the minified jQuery file in the `js` folder.
+
+Then, use only the following methods or attributes: 
 
 - `$`
 - `eq`
@@ -39,5 +41,5 @@ Use only the following methods or attributes:
 - The second element with class `post`
 - The HTML content of the first `<a>` element on the page
 - Using a CSS pseudo-selector, the third element with class `post`
-- Using an HTML attribute, the fourth `<img>` on the page
+- Using one of its HTML attributes, the fourth `<img>` on the page
 
