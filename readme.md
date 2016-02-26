@@ -1,10 +1,10 @@
 # My Blawg: JS Selectors Practice
 
-Open the included `index.html` in your browser. Then, write down how you would select the following DOM objects on "My Blawg".
+Open the included `index.html` in your browser. 
 
 # Part One: Vanilla JS
 
-Use only the following methods or attributes:
+Write down how you would select the following DOM objects on "My Blawg". Use only the following methods or attributes:
 
 - `querySelector`
 - `querySelectorAll`
@@ -30,7 +30,9 @@ Use only the following methods or attributes:
 
 # Part Two: jQuery
 
-Use only the following methods or attributes: 
+First, use a `<script>` tag in `index.html` to include the minified jQuery file in the `js` folder.
+
+Then, write down how you would select the following DOM objects on "My Blawg". Use only the following methods or attributes: 
 
 - `$`
 - `eq`
@@ -56,4 +58,30 @@ Use only the following methods or attributes:
   - `$("post:nth-of-type(3)")`
 - Using its HTML attribute, the fourth `<img>` on the page
   - `$("img[alt=balloons]")`
+
+# Part Three: Getting and Setting
+
+Using these jQuery methods or attributes, follow the instructions below:
+
+- `$`
+- `eq`
+- `html`
+- `css`
+- `prop`
+
+Things to consider:
+- What's the difference between `$("body").html()` and `$("body").html("hello")`? 
+- `$("p")` selects all `<p>` elements on the page.
+  - If you run `$("p").html()`, how many elements' HTML does it return?
+  - If you run `$("p").html('hello')"`, how many elements does it affect?
+  - What about the other methods?
+
+---
+
+1. Get the HTML content of the second `<p>` element on the page
+- Set the HTML content of the second `<p>` to something else weird
+- Get the background color of the body
+- Set the background color of the body to "burlywood"
+- Get the `alt` value of the fourth `<img>` on the page
+- Set the `alt` value of the fourth `<img>` on the page to "Why is my boat upside down?"
 
