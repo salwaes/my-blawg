@@ -57,7 +57,7 @@ Things to consider:
 - What's the difference between `$("body").html()` and `$("body").html("hello")`? 
 - `$("p")` selects all `<p>` elements on the page.
   - If you run `$("p").html()`, how many elements' HTML does it return?
-  - If you run `$("p").html('hello')"`, how many elements does it affect?
+  - If you run `$("p").html('hello')`, how many elements does it affect?
   - What about the other methods?
 
 ---
